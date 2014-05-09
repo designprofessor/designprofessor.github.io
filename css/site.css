@@ -3,3 +3,57 @@ body {
   background: white;
   font-family: "Source Code Pro", monospace;
 }
+
+/* line 6, ../scss/_main.scss */
+h1 {
+  font-weight: 100;
+  font-size: 4em;
+}
+
+/* line 11, ../scss/_main.scss */
+h2 {
+  margin: 2em 0 0 0;
+  color: red;
+}
+/* line 14, ../scss/_main.scss */
+h2 .strike {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+/* line 20, ../scss/_main.scss */
+.container {
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* line 27, ../scss/_main.scss */
+.projects .project h3 {
+  margin: 0;
+}
+/* line 30, ../scss/_main.scss */
+.projects .project p {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 37, ../scss/_main.scss */
+  .container {
+    margin: 0 auto;
+    width: 740px;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 44, ../scss/_main.scss */
+  .container {
+    margin: 0 auto;
+    width: 960px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  /* line 51, ../scss/_main.scss */
+  .container {
+    margin: 0 auto;
+    width: 1100px;
+  }
+}

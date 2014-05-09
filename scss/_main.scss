@@ -2,3 +2,54 @@ body {
   background:$white;
   font-family: $font;
 }
+
+h1 {
+  font-weight:100;
+  font-size:4em;
+}
+
+h2 {
+    margin:2em 0 0 0;
+    color:$red;
+    .strike {
+      text-decoration: line-through;
+      color:#ccc;
+    }
+}
+
+.container {
+  margin:0 auto;
+  padding:0 1em;
+}
+
+.projects {
+  .project {
+    h3 {
+      margin:0;
+    }
+    p {
+      margin-top:0;
+    }
+  }
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    margin:0 auto;
+    width:740px;
+  }
+}
+
+@media screen and (min-width:960px) {
+  .container {
+    margin:0 auto;
+    width:960px;
+  }
+}
+
+@media screen and (min-width:1100px) {
+  .container {
+    margin:0 auto;
+    width:1100px;
+  }
+}
